@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "759169392640",
+    "firebase_url": "https://frisbeeh-9f597.firebaseio.com",
+    "project_id": "frisbeeh-9f597",
+    "storage_bucket": "frisbeeh-9f597.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759169392640:android:1ac13342eabee1c09b38e5",
+        "android_client_info": {
+          "package_name": "com.example.Frisbeeh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759169392640-cblvc526vnpjqhjn6flqbso0m8aopobq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI-t3aUQ8YIQemUS5sNtwLBCzd992JjsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759169392640-cblvc526vnpjqhjn6flqbso0m8aopobq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

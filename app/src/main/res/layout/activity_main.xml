@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frisbetausta"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/lvtaulu"
+        android:layout_width="271dp"
+        android:layout_height="169dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <Button
+        android:id="@+id/decbutton"
+        android:layout_width="89dp"
+        android:layout_height="51dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="sans-serif"
+        android:text="Subtract"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tallennabtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.791"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lvtaulu"
+        app:layout_constraintVertical_bias="0.497" />
+
+    <Button
+        android:id="@+id/OKbtn"
+        android:layout_width="89dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="sans-serif"
+        android:text="Begin"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/decbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.791"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lvtaulu"
+        app:layout_constraintVertical_bias="0.913" />
+
+    <Button
+        android:id="@+id/incbutton"
+        android:layout_width="89dp"
+        android:layout_height="51dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="sans-serif"
+        android:text="Add"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tallennabtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lvtaulu"
+        app:layout_constraintVertical_bias="0.497" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="80dp"
+        android:layout_height="43dp"
+        android:text="Total:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/lvtaulu"
+        app:layout_constraintEnd_toStartOf="@+id/totalTxt"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <TextView
+        android:id="@+id/totalTxt"
+        android:layout_width="110dp"
+        android:layout_height="43dp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/lvtaulu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <EditText
+        android:id="@+id/numeroTxt"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Number"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/incbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.302"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lvtaulu"
+        app:layout_constraintVertical_bias="0.787" />
+
+    <Button
+        android:id="@+id/tallennabtn"
+        android:layout_width="253dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="556dp"
+        android:background="@drawable/roundbutton"
+        android:text="Save score"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
