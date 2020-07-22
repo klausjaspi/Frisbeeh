@@ -1,4 +1,5 @@
-# Frisbeeh 
+![logo_removed (git)](https://user-images.githubusercontent.com/68552044/88162329-dfd8d680-cc19-11ea-9c48-c39950d69a0a.png)
+
  
 Frisbeeh is an android platform application used to calculate and to view user scores in frisbeegolf sport. It's to create more simplified and efficient user interface to keep count of scores. This application is a project of mine, purpose was to practice my skills and also to build an application to represent my current skill set.
 This project was made with Android Studio platform and java programming language.
