@@ -38,7 +38,14 @@ If you wish to test Frisbeeh without creating your own account please use the te
 
 - Your inputted scores can be seen in the view above and the total count of points at the top.
 
+### Wrong input/ issue handling
+
+![oie_DekWeEFJPOky](https://user-images.githubusercontent.com/68552044/88170390-47951e80-cc26-11ea-87ba-0b474edd0714.gif)
+
+
 You **can not save empty score**. Frisbeeh will guide you with push notifications if any issues comes up.
+
+
 
 Please keep in mind this is a student made project.
 
