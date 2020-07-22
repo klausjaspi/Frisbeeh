@@ -27,6 +27,19 @@ If you wish to test Frisbeeh without creating your own account please use the te
 
 **nickname:** testuser
 
+## New game
+
+### Instructions
+
+![oie_XproMfyy2Bug](https://user-images.githubusercontent.com/68552044/88170111-cf2e5d80-cc25-11ea-9d71-cb4301fddd89.gif)
+
+1. Begin the game with adding a score value and press Begin -button.
+2. Add/Decrease points with dedicated buttons below.
+
+- Your inputted scores can be seen in the view above and the total count of points at the top.
+
+You **can not save empty score**. Frisbeeh will guide you with push notifications if any issues comes up.
+
 Please keep in mind this is a student made project.
 
 Thank you!
