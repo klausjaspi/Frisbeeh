@@ -45,7 +45,11 @@ If you wish to test Frisbeeh without creating your own account please use the te
 
 You **can not save empty score**. Frisbeeh will guide you with push notifications if any issues comes up.
 
+# The Download link
 
+Currently Frisbeeh is not in Google Play store although my intention is to add it there.
+Here is the Dropbox download link for the apk-file:
+https://www.dropbox.com/s/x01dl5lrywmmbfh/Frisbeeh.apk?dl=0
 
 Please keep in mind this is a student made project.
 
