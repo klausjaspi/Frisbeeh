@@ -42,8 +42,28 @@ If you wish to test Frisbeeh without creating your own account please use the te
 
 ![oie_DekWeEFJPOky](https://user-images.githubusercontent.com/68552044/88170390-47951e80-cc26-11ea-87ba-0b474edd0714.gif)
 
+Frisbeeh will guide you with push notifications in case wrong button or input has been set.
 
-You **can not save empty score**. Frisbeeh will guide you with push notifications if any issues comes up.
+## Saving score
+
+![oie_0YFcqsZjKLIX](https://user-images.githubusercontent.com/68552044/88268400-10347980-ccdb-11ea-803e-935095b22458.gif)
+
+Frisbeeh will automatically fetch your total score and show it in the bottom, make sure it is right.
+1. Add your username, name of the course, and the date. (Note: be precise when writing the username, the score details will be saved as they've inputted).
+2. Save the score by pressing Save Score -button.
+
+## Viewing saved scores
+
+You can view your saved scores in two ways, here is the first way: saving score and then viewing the score list.
+
+![oie_40yAmsrfSNEW](https://user-images.githubusercontent.com/68552044/88269003-f6476680-ccdb-11ea-9caf-117c084765cf.gif)
+
+This is the second way. Navigating from main menu to scores view you are required to write the desired username. Checking the remember username box will save your nickname for the future until logged out. Next time clicking scores Frisbeeh will automatically direct you to your saved scores list.
+
+![oie_0NxNmz3sDshj](https://user-images.githubusercontent.com/68552044/88269332-81c0f780-ccdc-11ea-907c-949610dde66e.gif)
+
+
+Please note that you **can not save empty score**. Frisbeeh will guide you with push notifications in case of any issues.
 
 # The Download link
 
