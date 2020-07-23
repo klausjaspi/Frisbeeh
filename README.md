@@ -14,7 +14,7 @@ Enabling "remember me" the app will make an temporary save file to your local de
 
 ![oie_oW91JAOV7WgA](https://user-images.githubusercontent.com/68552044/88167902-38ac6d00-cc22-11ea-80bd-d361976637dd.gif)
 
-Creating new user account is simple.
+Creating new user account instructions.
 1. Input desired credentials
 2. Press the Create -button.
 
