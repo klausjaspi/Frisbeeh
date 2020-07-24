@@ -69,7 +69,7 @@ Please note that you **can not save empty score**. Frisbeeh will guide you with 
 
 Currently Frisbeeh is not in Google Play store although my intention is to add it there.
 Here is the Dropbox download link for the apk-file:
-https://www.dropbox.com/s/x01dl5lrywmmbfh/Frisbeeh.apk?dl=0
+https://www.dropbox.com/s/9bclt9afu8p58va/Frisbeeh.apk?dl=0
 
 Please keep in mind this is a student made project.
 
