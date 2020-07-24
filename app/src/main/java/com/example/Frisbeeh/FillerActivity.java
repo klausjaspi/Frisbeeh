@@ -67,7 +67,13 @@ public class FillerActivity extends AppCompatActivity {
         sendbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                savscor();
+                if(remember2.isChecked()){
+                    savscor();
+                }
+                else{
+                    notchecked();
+                }
+
             }
         });
     }
@@ -77,6 +83,12 @@ public class FillerActivity extends AppCompatActivity {
         SharedPreferences preferences3 = getSharedPreferences("checkbox2", MODE_PRIVATE);
         String info = preferences3.getString("remembernick", "");
         save.putExtra(EXTRA_TEXT3, info);
-          startActivity(save);
+        startActivity(save);
+    }
+    public void notchecked(){
+        Intent not = new Intent(this, SavedScores.class);
+        String notsaved = fillerinfoText.getText().toString();
+        not.putExtra(EXTRA_TEXT3, notsaved);
+        startActivity(not);
     }
 }

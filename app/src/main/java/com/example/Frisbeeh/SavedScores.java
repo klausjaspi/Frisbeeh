@@ -83,20 +83,29 @@ public class SavedScores extends AppCompatActivity {
         Intent intentt = getIntent();
 
         String text3 = intentt.getStringExtra(TallennaTulos.EXTRA_TEXT2);
+        String text4 = intentt.getStringExtra(FillerActivity.EXTRA_TEXT3);
 
 
-        if(text3 == null){
+        if((text3 == null) & (text4 == null)){
             databaseReference = FirebaseDatabase.getInstance().getReference(okay);
-        } else if(okay.equals("")){
-            databaseReference = FirebaseDatabase.getInstance().getReference(text3);
+        }if(okay.equals("")){
+            if(text4 == null){
+                databaseReference = FirebaseDatabase.getInstance().getReference(text3);
+            } else if(text3 == null){
+                databaseReference = FirebaseDatabase.getInstance().getReference(text4);
+            }
         } else{
             databaseReference = FirebaseDatabase.getInstance().getReference(okay);
         }
 
-        if(text3 == null){
+        if((text3 == null) & (text4 == null)){
             savednameView.setText(okay);
         } if(okay.equals("")){
-            savednameView.setText(text3);
+            if(text4 == null){
+                savednameView.setText(text3);
+            } else if(text3 == null){
+                savednameView.setText(text4);
+            }
         } else{
             savednameView.setText(okay);
         }
