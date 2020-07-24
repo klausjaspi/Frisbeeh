@@ -54,14 +54,18 @@ Frisbeeh will automatically fetch your total score and show it in the bottom, ma
 
 ## Viewing saved scores
 
-You can view your saved scores in two ways, here is the first way: saving score and then viewing the score list.
-
 ![oie_40yAmsrfSNEW](https://user-images.githubusercontent.com/68552044/88269003-f6476680-ccdb-11ea-9caf-117c084765cf.gif)
 
-This is the second way. Navigating from main menu to scores view you are required to write the desired username. Checking the remember username box will save your nickname for the future until logged out. Next time clicking scores Frisbeeh will automatically direct you to your saved scores list.
+You can view your saved scores in two ways, here is the first way: saving score and then viewing the score list.
+
 
 ![oie_0NxNmz3sDshj](https://user-images.githubusercontent.com/68552044/88269332-81c0f780-ccdc-11ea-907c-949610dde66e.gif)
 
+This is the second way. Navigating from main menu to scores view you are required to write the desired username. 
+
+Checking the remember nickname box will save your nickname for the future until logged out. Next time clicking scores Frisbeeh will automatically direct you to your saved scores list. 
+
+Checking the remember nickname box is not necessary to view your scores.
 
 Please note that you **can not save empty score**. Frisbeeh will guide you with push notifications in case of any issues.
 
